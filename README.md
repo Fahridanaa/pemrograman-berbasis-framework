@@ -157,3 +157,92 @@
     > ![alt text](screenshot/3.png)
     >
     > ![alt text](screenshot/4.png)
+
+## Praktikum 3: Menambahkan Komponen React (Button)
+
+### Pertanyaan Praktikum 3
+
+1. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!<br/>
+   **Jawab**
+
+    > #### Menambahkan button component
+    >
+    > ```tsx
+    > function MyButton() {
+    > 	return (
+    > 		<a
+    > 			href="http://localhost:3000"
+    > 			target="_blank"
+    > 			rel="noopener noreferrer"
+    > 			className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+    > 			Buka Halaman
+    > 		</a>
+    > 	);
+    > }
+    > ```
+    >
+    > #### Menggunakan component button disamping button Read Our Docs
+    >
+    > ```tsx
+    > <a
+    > 	className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+    > 	href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+    > 	target="_blank"
+    > 	rel="noopener noreferrer">
+    > 	Read our docs
+    > </a>
+    > <MyButton />
+    > ```
+    >
+    > #### Output
+    >
+    > ![alt text](screenshot/5.png)
+
+## Praktikum 4: Menulis Markup dengan JSX
+
+### Pertanyaan Praktikum 4
+
+1.  Untuk apakah kegunaan sintaks user.imageUrl?<br/>
+    **Jawab**
+    > Sintaks `user.imageUrl` digunakan untuk mengakses properti `imageUrl` dari objek `user`. Properti ini biasanya berisi URL gambar profil atau avatar pengguna yang dapat digunakan dalam elemen gambar (`<img>`) atau elemen lain yang membutuhkan URL gambar.
+2.  Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!<br/>
+    **Jawab**
+    > #### Menambahkan Profile component
+    >
+    > ```tsx
+    > function Profile() {
+    > 	return (
+    > 		<>
+    > 			<div className="text-xs">Developed by: {user.name}</div>
+    > 			<img
+    > 				className="rounded-full"
+    > 				src={user.imageUrl}
+    > 				alt={"Foto " + user.name}
+    > 				style={{
+    > 					width: user.imageSize,
+    > 					height: user.imageSize,
+    > 				}}
+    > 			/>
+    > 		</>
+    > 	);
+    > }
+    > const user = {
+    > 	name: "Fulanah bin Fulan",
+    > 	imageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
+    > 	imageSize: 90,
+    > };
+    > ```
+    >
+    > #### Menggunakan Profile component setelah MyButton component
+    >
+    > ```tsx
+    >       </a>
+    >       <MyButton />
+    >   </div>
+    >   <Profile />
+    > </main>
+    > ```
+    >
+    > #### Output
+    >
+    > ![alt text](screenshot/6.png)
