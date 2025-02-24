@@ -49,3 +49,46 @@
 2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut telah berhasil terinstall di perangkat Anda! <br/>
    **Jawab:**
     > ![alt text](screenshot/1.png)
+
+## Praktikum 2: Membuat Proyek Pertama React Menggunakan Next.js
+
+### pertanyaan Praktikum 2
+
+1. Pada Langkah ke-2, setelah membuat proyek baru menggunakan Next.js, terdapat beberapa istilah yang muncul. Jelaskan istilah tersebut, TypeScript, ESLint, Tailwind CSS, App Router, Import alias, App router, dan Turbopack! <br/>
+   **Jawab**
+
+    > #### Typescript
+    >
+    > TypeScript adalah superset dari JavaScript yang menambahkan static typing. Ini membantu dalam pengembangan dengan memberikan autocomplete, type safety, dan error checking sebelum kode dijalankan.
+    >
+    > #### ESLint
+    >
+    > ESLint adalah alat linter untuk JavaScript dan TypeScript yang membantu menjaga konsistensi kode dengan mendeteksi dan memperbaiki potensi kesalahan serta mengikuti aturan coding standar.
+    >
+    > #### Tailwind CSS
+    >
+    > Tailwind CSS adalah framework CSS berbasis utility-first yang memungkinkan pengembangan UI dengan cepat tanpa perlu menulis banyak file CSS terpisah.
+    >
+    > #### App Router
+    >
+    > App Router adalah sistem routing baru di Next.js yang menggantikan Pages Router. Ini berbasis server components dan menggunakan sistem file di dalam folder `/app`.
+    >
+    > #### Import Alias
+    >
+    > Import alias memungkinkan penulisan path yang lebih pendek dalam impor file, menghindari path relatif yang panjang. <br/> **Contoh tanpa alias:**
+    >
+    > ```tsx
+    > import Button from "../../components/ui/Button";
+    > ```
+    >
+    > **Dengan import alias (@/) dalam tsconfig.json atau jsconfig.json:**
+    >
+    > ```tsx
+    > import Button from "@/components/ui/Button";
+    > ```
+    >
+    > #### Turbopack
+    >
+    > Turbopack adalah bundler baru dalam Next.js yang menggantikan Webpack dengan performa lebih cepat. Dibangun menggunakan **Rust**, ini memberikan kompilasi dan **HMR (Hot Module Replacement)** yang lebih efisien.
+
+2. Apa saja kegunaan folder dan file yang ada pada struktur proyek React yang tampil pada gambar pada tahap percobaan ke-3! <br/>
