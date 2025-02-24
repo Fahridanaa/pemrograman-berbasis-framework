@@ -92,3 +92,68 @@
     > Turbopack adalah bundler baru dalam Next.js yang menggantikan Webpack dengan performa lebih cepat. Dibangun menggunakan **Rust**, ini memberikan kompilasi dan **HMR (Hot Module Replacement)** yang lebih efisien.
 
 2. Apa saja kegunaan folder dan file yang ada pada struktur proyek React yang tampil pada gambar pada tahap percobaan ke-3! <br/>
+   **Jawab**
+
+    > #### 1. `.next` (Folder Build)
+    >
+    > Folder ini dibuat secara otomatis saat menjalankan next build atau next dev. Folder ini Menyimpan hasil **kompilasi** dan **caching** untuk mempercepat waktu build dan runtime.
+    >
+    > #### 2. `.node_modules` (Folder Dependensi)
+    >
+    > Berisi semua library dan package yang diinstal dengan npm atau yarn.
+    >
+    > #### 3. `public` (Folder Aset Statis)
+    >
+    > Tempat menyimpan gambar, favicon, font, atau file statis lainnya yang bisa diakses langsung di browser.
+    >
+    > #### 4. `src` (Folder Sumber Kode)
+    >
+    > Digunakan untuk menyimpan kode utama proyek.
+    >
+    > #### 5. `.gitignore`
+    >
+    > Menentukan file/folder yang tidak boleh di-track oleh Git.
+    >
+    > #### 6. `package-lock.json`
+    >
+    > Berisi daftar versi spesifik dari semua dependensi yang diinstal dan juga Membantu memastikan proyek tetap konsisten meskipun dijalankan di komputer berbeda.
+    >
+    > #### 7. `package.json`
+    >
+    > File utama untuk mengatur proyek Node.js. File ini Menyimpan informasi proyek, dependensi, dan skrip yang dapat dijalankan.
+    >
+    > #### 8. `tsconfig.json`
+    >
+    > Konfigurasi untuk TypeScript dalam proyek Next.js. File ini mengatur bagaimana TypeScript akan dikompilasi.
+    >
+    > #### 9. `eslint.config.mjs`
+    >
+    > File untuk konfigurasi ESLint, yang membantu memastikan kode tetap rapi dan bebas error.
+    >
+    > #### 10. `postcss.config.mjs`
+    >
+    > Konfigurasi untuk PostCSS, yang sering digunakan bersama Tailwind CSS.
+    >
+    > #### 11. `next-env.d.ts`
+    >
+    > File khusus untuk TypeScript, yang membantu Next.js mengenali tipe data default.
+    >
+    > #### 12. `next.config.ts`
+    >
+    > Konfigurasi utama untuk Next.js. Bisa digunakan untuk mengaktifkan fitur experimental, redirect, rewrites, dsb.
+    >
+    > #### 13. `tailwind.config.ts`
+    >
+    > Konfigurasi untuk Tailwind CSS dalam proyek.
+
+3. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan! <br/>
+   **Jawab**
+    > #### Inisialisasi Project
+    >
+    > ![alt text](screenshot/2.png)
+    >
+    > #### Menjalankan Program
+    >
+    > ![alt text](screenshot/3.png)
+    >
+    > ![alt text](screenshot/4.png)
