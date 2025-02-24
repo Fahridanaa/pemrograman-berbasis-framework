@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PERTEMUAN 1 - PENGANTAR PEMROGRAMAN BERBASIS FRAMEWORK DAN REACTJS
 
-## Getting Started
+> Nama: Fahridana Ahmad Rayyansyah
+>
+> Kelas: TI-3A
+>
+> Absen: 11
 
-First, run the development server:
+<hr />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Praktikum 1: Menyiapkan Lingkungan Pengembangan
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Pertanyaan Praktikum 1
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Jelaskan kegunaan masing-masing dari Git, VS Code dan NodeJS yang telah Anda install pada sesi praktikum ini! <br/>
+   **Jawab**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    > #### Git
+    >
+    > Git adalah sistem kontrol versi (VCS) terdistribusi yang digunakan untuk melacak perubahan kode dalam pengembangan perangkat lunak. <br/> **Kegunaan utama:** <br/>
+    >
+    > - Versi Kontrol → Melacak setiap perubahan kode dan memungkinkan rollback ke versi sebelumnya.
+    > - Kolaborasi Tim → Memungkinkan banyak pengembang bekerja pada satu proyek secara bersamaan tanpa konflik kode.
+    > - Branching & Merging → Membantu dalam pengembangan fitur secara terpisah tanpa mengganggu kode utama.
+    > - Integrasi dengan Platform → Bekerja dengan layanan seperti GitHub, GitLab, dan Bitbucket untuk penyimpanan dan kolaborasi.
+    >
+    > #### VSCode (Visual Studio Code)
+    >
+    > VS Code adalah code editor yang ringan dan kuat, dikembangkan oleh Microsoft, dengan dukungan banyak bahasa pemrograman.
+    > **Kegunaan utama:**
+    >
+    > - Editing Kode dengan Fitur Pintar → Menyediakan fitur auto-complete, debugging, dan IntelliSense.
+    > - Dukungan Ekstensi → Bisa diperluas dengan berbagai ekstensi seperti Prettier, ESLint, dan GitLens.
+    > - Terminal Terintegrasi → Bisa menjalankan perintah terminal langsung dari dalam editor.
+    > - Git Integration → Mempermudah commit, push, dan pull dari repositori Git langsung dari editor.
+    > - Multi-language Support → Mendukung berbagai bahasa seperti JavaScript, Python, PHP, Go, dll.
+    >
+    > #### Node.js
+    >
+    > Node.js adalah runtime JavaScript yang berjalan di sisi server, dibangun di atas mesin V8 milik Google Chrome.
+    > **Kegunaan utama:**
+    >
+    > - Menjalankan JavaScript di Server → Memungkinkan JavaScript berjalan di backend, bukan hanya di browser.
+    > - Membangun API & Web Server → Mempermudah pengembangan API RESTful dengan framework seperti Express.js.
+    > - Asynchronous & Event-Driven → Cocok untuk aplikasi real-time seperti chat dan streaming.
+    > - NPM (Node Package Manager) → Memudahkan manajemen dependensi dan pustaka pihak ketiga.
+    > - Full-Stack JavaScript → Bisa digunakan untuk pengembangan full-stack dengan kombinasi frontend (React, Vue, Next.js) dan backend (Express, NestJS).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut telah berhasil terinstall di perangkat Anda! <br/>
+   **Jawab:**
+    > ![alt text](screenshot/1.png)
